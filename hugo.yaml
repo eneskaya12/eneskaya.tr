@@ -1,0 +1,64 @@
+baseURL: https://eneskaya.tr/
+languageCode: en
+title: Enes Kaya
+theme: PaperMod
+
+params:
+  defaultTheme: dark
+  disableThemeToggle: false
+  showReadingTime: true
+  showShareButtons: false
+  showPostNavLinks: true
+  showBreadCrumbs: false
+  showCodeCopyButtons: true
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/eneskaya12"
+    - name: twitter
+      url: "https://twitter.com/eneskay_"
+    - name: instagram
+      url: "https://instagram.com/enskayaa_"
+    - name: telegram
+      url: "https://telegram.me/eneskaya25"
+
+  profileMode:
+    enabled: true
+    title: "Hello"
+    subtitle: |
+      I'm **Enes Kaya**, a Computer Engineering graduate and Software Developer at <a href="https://netinternet.tr" target="_blank"><strong>Netinternet</strong></a>.<br>
+      A Backend Developer with a focus on **Go**, **Java**, and a deep interest in **Linux** & **DevOps**.
+    imageUrl: "/images/profile.jpg"
+    imageTitle: "Enes Kaya"
+    imageWidth: 150
+    imageHeight: 150
+
+  cover:
+    hidden: true
+    hiddenInList: true
+
+  footer:
+    
+
+menu:
+  main:
+    - name: Posts
+      url: /posts/
+      weight: 1
+    - name: About
+      url: /about/
+      weight: 2
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: monokai
+    lineNos: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

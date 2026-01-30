@@ -1,0 +1,17 @@
+/* Custom styles for eneskaya.tr */
+
+:root {
+  --nav-width: 800px;
+  --main-width: 800px;
+}
+
+.profile_inner img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+/* Netinternet link underline */
+.profile_inner a {
+  text-decoration: underline;
+}
