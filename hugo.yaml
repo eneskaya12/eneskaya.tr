@@ -28,7 +28,7 @@ params:
     subtitle: |
       I'm **Enes Kaya**, a Computer Engineering graduate and Software Developer at <a href="https://netinternet.tr" target="_blank"><strong>Netinternet</strong></a>.<br>
       A Backend Developer with a focus on **Go**, **Java**, and a deep interest in **Linux** & **DevOps**.
-    imageUrl: "/images/profile.jpg"
+    imageUrl: "images/profile.jpg"
     imageTitle: "Enes Kaya"
     imageWidth: 150
     imageHeight: 150
