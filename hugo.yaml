@@ -38,7 +38,8 @@ params:
     hidden: true
     hiddenInList: true
 
-  footer:
+  assets:
+    favicon: "/favicon.ico"
     
 
 menu:
